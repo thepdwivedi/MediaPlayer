@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
                 AudioModel audioModel = new AudioModel();
                 String path = c.getString(0);
-                String album = c.getString(1);
+             String album = c.getString(1);
                 String artist = c.getString(2);
 
                 String name = path.substring(path.lastIndexOf("/") + 1);
