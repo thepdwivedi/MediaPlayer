@@ -3,7 +3,7 @@ package com.dbrothers.pankaj_pc.mediaplayer;
 import java.io.Serializable;
 
 /**
- * Created by Pankaj-PC on 4/4/2018.
+ * Created by Pankaj-PC on 4/4/2018. Pankaj 
  */
 public class AudioModel implements Serializable {
 
@@ -11,6 +11,7 @@ public class AudioModel implements Serializable {
     String aName;
     String aAlbum;
     String aArtist;
+	
 
     public String getaPath() {
         return aPath;
